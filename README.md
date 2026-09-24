@@ -46,22 +46,9 @@ Esses dados são processados pela aplicação desenvolvida em C# e .NET, que ava
 
 O fluxo geral da aplicação pode ser representado da seguinte maneira:
 
-Máquina
-   ↓
-Sensores
-   ↓
-Coleta de Dados
-   ↓
-Aplicação C# / .NET
-   ↓
-Processamento dos Dados
-   ↓
-Análise / ML.NET
-   ↓
-Avaliação do Estado da Máquina
-   ↓
-Alerta de Manutenção
+Máquina ->  Sensores -> Coleta de Dados -> Aplicação C# / .NET -> Processamento dos Dados -> Análise / ML.NET -> Avaliação do Estado da Máquina -> Alerta de Manutenção
 
+<br>
 Caso seja detectado algum comportamento considerado anormal, o sistema pode gerar um alerta indicando que a máquina precisa ser verificada.
 
 **Machine Learning**
