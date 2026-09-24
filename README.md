@@ -1,6 +1,7 @@
 **Sistema de Manutenção Preditiva**
 
 Sistema desenvolvido em C#, .NET e ML.NET para monitoramento de uma máquina industrial através de sensores, com o objetivo de identificar condições anormais de funcionamento e auxiliar na prevenção de falhas.
+____________________________________________________________
 
 **Sobre o projeto**
 
@@ -19,6 +20,7 @@ Consumo e comportamento elétrico;
 Estado de funcionamento da máquina.
 
 A partir desses dados, o sistema consegue analisar as condições de operação e identificar situações que possam indicar necessidade de manutenção.
+____________________________________________________________
 
 **Objetivo**
 
@@ -37,6 +39,7 @@ Danos aos equipamentos;
 Necessidade de manutenção emergencial.
 
 Em vez de realizar uma intervenção apenas depois que uma falha ocorre, o sistema busca identificar sinais anormais antecipadamente.
+____________________________________________________________
 
 **Funcionamento**
 
@@ -46,10 +49,10 @@ Esses dados são processados pela aplicação desenvolvida em C# e .NET, que ava
 
 O fluxo geral da aplicação pode ser representado da seguinte maneira:
 
-Máquina ->  Sensores -> Coleta de Dados -> Aplicação C# / .NET -> Processamento dos Dados -> Análise / ML.NET -> Avaliação do Estado da Máquina -> Alerta de Manutenção
+Máquina ->  Sensores -> Coleta de Dados -> Aplicação C# / .NET -> Processamento dos Dados -> Análise / ML.NET -> Avaliação do Estado da Máquina -> Alerta de 
 
-<br>
 Caso seja detectado algum comportamento considerado anormal, o sistema pode gerar um alerta indicando que a máquina precisa ser verificada.
+____________________________________________________________
 
 **Machine Learning**
 
