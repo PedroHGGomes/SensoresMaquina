@@ -1,4 +1,4 @@
-Sistema de Manutenção Preditiva
+**Sistema de Manutenção Preditiva**
 
 Sistema desenvolvido em C#, .NET e ML.NET para monitoramento de uma máquina industrial através de sensores, com o objetivo de identificar condições anormais de funcionamento e auxiliar na prevenção de falhas.
 
